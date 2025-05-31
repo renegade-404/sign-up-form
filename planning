@@ -64,7 +64,9 @@ Right child:
         - flex, wrap, padding, span with required indicator
         - if required not filled: color the border 
         - styled borders for focused fields
+        - put a placeholder text inside inputs
 
 Left child:
+(TBA)
 
 
