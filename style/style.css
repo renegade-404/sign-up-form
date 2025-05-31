@@ -1,0 +1,20 @@
+@import url("./fonts.css");
+
+:root {
+    --main-font: "Cartograph CF", var(--fonts);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+body {
+    font-family: var(--main-font);
+
+    & * {
+        font-family: inherit;
+    }
+    
+}
