@@ -4,17 +4,40 @@
     --main-font: "Cartograph CF", var(--fonts);
 }
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;   
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: var(--main-font);
+    line-height: 1.5;
 
     & * {
         font-family: inherit;
     }
     
 }
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    width: 150px;
+}
+
+p {
+    text-wrap: pretty;
+    overflow-wrap: break-word;
+}
+
+
