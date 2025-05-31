@@ -40,7 +40,7 @@ Right child:
         - create a legend and write something inside it
         - create 6 divs
             - 1st div 
-                - label: "How shall we call you"?
+                - label: "How shall we call you?"
                 - input: text, required
             - 2nd div
                 - label: "What is the name of your clan?"
@@ -48,8 +48,9 @@ Right child:
             - 3rd div
                 - label: "Your inner seal" (email)
                 - input: email, required
+                - span: (an email)
             - 4th div
-                - label: "Your number"
+                - label: "Your identification number"
                 - input: number, optional, min/max
             5th div
                 - label: "Secret code"

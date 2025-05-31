@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Cartograph CF";
     src: 
-        url("./fonts/CartographCF-DemiBoldItalic.woff2") format("woff2"),
-        url("./fonts/CartographCF-DemiBoldItalic.woff") format("woff");
+        url("./fonts/CartographCF-ExtraBoldItalic.woff2") format("woff2"),
+        url("./fonts/CartographCF-ExtraBoldItalic.woff") format("woff");
     font-weight: bold;
     font-style: italic;
 }
@@ -12,16 +12,16 @@
     src: 
         url("./fonts/CartographCF-DemiBold.woff2") format("woff2"),
         url("./fonts/CartographCF-DemiBold.woff") format("woff");
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Cartograph CF";
     src: 
-        url("./fonts/CartographCF-RegularItalic.woff2") format("woff2"),
-        url("./fonts/CartographCF-RegularItalic.woff") format("woff");
-    font-weight: normal;
+        url("./fonts/CartographCF-ThinItalic.woff2") format("woff2"),
+        url("./fonts/CartographCF-ThinItalic.woff") format("woff");
+    font-weight: thin;
     font-style: italic;
 }
 
