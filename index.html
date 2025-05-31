@@ -14,35 +14,45 @@
         <div class="right-form">
             <div>
                 <p>
+                    Welcome to the Realm Human! You have finally found a path that many
+                    have missed and never come across again. Your hopes and dreams may
+                    come true in our World!
+                </p>
+                <p>
+                    However, first we need to gather some information about you!
                 </p>
             </div>
-            <form action="">
+            <form action="#" method="get">
                 <div class="form-input">
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="user-name">How shall we call you?</label>
+                    <input type="text" id="user-name" name="name" required>
                 </div>
                 <div class="form-input">
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="user-surname">What is the name of your clan?</label>
+                    <input type="text" id="user-surname" name="surname" required>
                 </div>
                 <div class="form-input">
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="user-email">Your Inner Seal</label>
+                    <input type="email" id="user-email" name="email" required>
+                    <span></span>
                 </div>
                 <div class="form-input">
-                    <label for=""></label>
-                    <input type="text"></div>
-                <div class="form-input">
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="phone-number">Your Identification Number</label>
+                    <input type="tel" id="phone-number" name="phone-number">
                 </div>
                 <div class="form-input">
-                    <label for=""></label>
-                    <input type="text">
+                    <label for="user-password">Secret Code</label>
+                    <input type="password" id="user-password" name="password" min="8" required>
+                </div>
+                <div class="form-input">
+                    <label for="confirm-password">Confirm Secret Code</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
                 </div>
                 <div>
-                    <button></button>
-                    <p></p>
+                    <button type="button">Register yourself in the Realm</button>
+                    <p>
+                        Already registered in the Realm? Proceed to <a href="#">Authenticate In</a>
+                    </p>
                 </div>
             </form>
         </div>
