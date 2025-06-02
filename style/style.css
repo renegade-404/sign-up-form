@@ -141,6 +141,8 @@ a {
     }
 }
 
+
+
 input {
     font-style: italic;
     font-weight: normal;
@@ -160,6 +162,10 @@ input:focus {
     
 }
 
+input:user-valid {
+    border-color: green;
+}
+
 input:user-invalid {
     border-color: #903749;
 }
@@ -177,7 +183,10 @@ input:required + span::before {
     left: 6em;
 }
 
-input[type="tel"]::placeholder {
-    content: "format: 123-123-1234";
-    color: #1b83bf;
+input::placeholder {
+    color: #3890c3;
+}
+
+.my-input.empty {
+    border: 3px solid black;
 }
