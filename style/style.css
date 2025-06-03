@@ -185,6 +185,7 @@ input:required + span::before {
 
 input::placeholder {
     color: #3890c3;
+    text-align: center;
 }
 
 .my-input.empty {
