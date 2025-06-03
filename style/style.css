@@ -74,6 +74,10 @@ p {
 
 .left-image {
     flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .right-form {
@@ -145,7 +149,7 @@ a {
 
 input {
     font-style: italic;
-    font-weight: normal;
+    font-weight: bold;
     height: 2.2em;
 
     border: 3px solid black;
@@ -186,8 +190,26 @@ input:required + span::before {
 input::placeholder {
     color: #3890c3;
     text-align: center;
+    font-weight: normal;
 }
 
 .my-input.empty {
     border: 3px solid black;
+}
+
+.icon-background {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(108, 32, 32, 0.417);
+
+    display: flex;
+    justify-content: center;
+
+} 
+
+.icon-background img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
 }
